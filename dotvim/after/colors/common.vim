@@ -1,0 +1,1 @@
+highlight LineNr ctermfg=darkgrey
