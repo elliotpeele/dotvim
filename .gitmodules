@@ -1,3 +1,27 @@
 [submodule "vim-pathogen"]
 	path = vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "dotvim/bundle/AfterColors.vim"]
+	path = dotvim/bundle/AfterColors.vim
+	url = https://github.com/vim-scripts/AfterColors.vim.git
+[submodule "dotvim/bundle/YouCompleteMe"]
+	path = dotvim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "dotvim/bundle/syntastic"]
+	path = dotvim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "dotvim/bundle/ultisnips"]
+	path = dotvim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "dotvim/bundle/vim-colors-solarized"]
+	path = dotvim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "dotvim/bundle/vim-gitgutter"]
+	path = dotvim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "dotvim/bundle/vim-go"]
+	path = dotvim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "dotvim/bundle/vim-sensible"]
+	path = dotvim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
