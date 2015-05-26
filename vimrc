@@ -20,8 +20,18 @@ autocmd filetype html,xml,go set listchars-=trail:>.
 set spelllang=en_us
 set number
 
-au FileType python source ~/.vim/ftplugin/pyflakes.vim
 au FileType recipe source ~/.vim/ftplugin/python.vim
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_python_checkers = ['pyflakes']
 
 set background=dark
 " solarized options
