@@ -1,1 +1,1 @@
-highlight LineNr ctermfg=darkgrey
+highlight LineNr ctermfg=yellow
