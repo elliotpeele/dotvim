@@ -25,3 +25,6 @@
 [submodule "dotvim/bundle/vim-sensible"]
 	path = dotvim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "dotvim/bundle/vim-fish"]
+	path = dotvim/bundle/vim-fish
+	url = https://github.com/dag/vim-fish.git
