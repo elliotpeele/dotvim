@@ -10,7 +10,9 @@ execute pathogen#infect()
 filetype on            " enables filetype detection
 filetype plugin on     " enables filetype specific plugins
 
-au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+"au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+autocmd FileType python highlight Excess ctermbg=LightBlue
+autocmd FileType python match Excess /\%80v.*/
 
 set wildmenu
 
