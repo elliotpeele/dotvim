@@ -31,3 +31,6 @@
 [submodule "dotvim/bundle/vim-fugitive"]
 	path = dotvim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "dotvim/bundle/puppet-syntax-vim"]
+	path = dotvim/bundle/puppet-syntax-vim
+	url = https://github.com/puppetlabs/puppet-syntax-vim.git
