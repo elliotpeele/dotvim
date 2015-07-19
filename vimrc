@@ -31,6 +31,12 @@ set statusline+=%f
 set statusline+=%=
 set statusline+=%-14.(%l,%c%V%)\ %P
 
+" configure undo file
+set undodir=~/.vim/undo
+set undofile
+set undolevels=1000  "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
