@@ -34,3 +34,6 @@
 [submodule "dotvim/bundle/puppet-syntax-vim"]
 	path = dotvim/bundle/puppet-syntax-vim
 	url = https://github.com/puppetlabs/puppet-syntax-vim.git
+[submodule "dotvim/bundle/Vim-Jinja2-Syntax"]
+	path = dotvim/bundle/Vim-Jinja2-Syntax
+	url = https://github.com/Glench/Vim-Jinja2-Syntax
