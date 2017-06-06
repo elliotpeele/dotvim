@@ -58,4 +58,7 @@ let g:UltiSnipsExpandTrigger = '<C-j>'
 " format with goimports instead of gofmt
 let g:go_fmt_command = "goimports"
 
+" enable nocomplete
+let g:neocomplete#enable_at_startup = 1
+
 command Sync syntax sync fromstart

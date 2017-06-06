@@ -4,9 +4,6 @@
 [submodule "dotvim/bundle/AfterColors.vim"]
 	path = dotvim/bundle/AfterColors.vim
 	url = https://github.com/vim-scripts/AfterColors.vim.git
-[submodule "dotvim/bundle/YouCompleteMe"]
-	path = dotvim/bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "dotvim/bundle/syntastic"]
 	path = dotvim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
@@ -37,3 +34,6 @@
 [submodule "dotvim/bundle/Vim-Jinja2-Syntax"]
 	path = dotvim/bundle/Vim-Jinja2-Syntax
 	url = https://github.com/Glench/Vim-Jinja2-Syntax
+[submodule "dotvim/bundle/neocomplete.vim"]
+	path = dotvim/bundle/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim
